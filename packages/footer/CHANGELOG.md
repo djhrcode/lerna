@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/djhrcode/lerna/compare/@djhrtest/footer@0.2.0...@djhrtest/footer@0.3.0) (2023-03-21)
+
+
+### Features
+
+* **@djhrtest/footer:** add publish config ([2fb4e61](https://github.com/djhrcode/lerna/commit/2fb4e61cb528f5d2bb5c06a822db638780aba675))
+
+
+
+
+
 # 0.2.0 (2023-03-21)
 
 
