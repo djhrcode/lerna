@@ -1,0 +1,101 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   'conventional-commits': true,
+0 silly argv   conventionalCommits: true,
+0 silly argv   lernaVersion: '6.5.1',
+0 silly argv   '$0': '/Users/danielhernandez/nowports/tests/lerna/node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v6.5.1
+2 verbose rootPath /Users/danielhernandez/nowports/tests/lerna
+3 info current version 0.0.0
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly getCurrentBranch
+7 verbose currentBranch main
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 4
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "0483c1b" => {"refCount":"11","sha":"0483c1b","isDirty":false}
+14 info Assuming all packages changed
+15 verbose updated @djhrtest/footer
+16 verbose updated @djhrtest/header
+17 verbose updated @djhrtest/remixapp
+18 verbose git-describe undefined => "0483c1b"
+19 silly git-describe parsed => {"refCount":"11","sha":"0483c1b","isDirty":false}
+20 silly fixed for @djhrtest/footer at /Users/danielhernandez/nowports/tests/lerna/packages/footer
+21 verbose getChangelogConfig using preset "conventional-changelog-angular"
+22 silly npa Result {
+22 silly npa   type: 'tag',
+22 silly npa   registry: true,
+22 silly npa   where: undefined,
+22 silly npa   raw: 'conventional-changelog-angular',
+22 silly npa   name: 'conventional-changelog-angular',
+22 silly npa   escapedName: 'conventional-changelog-angular',
+22 silly npa   scope: undefined,
+22 silly npa   rawSpec: '',
+22 silly npa   saveSpec: null,
+22 silly npa   fetchSpec: 'latest',
+22 silly npa   gitRange: undefined,
+22 silly npa   gitCommittish: undefined,
+22 silly npa   hosted: undefined
+22 silly npa }
+23 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+24 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+25 verbose fixed increment 0.0.0 by minor
+26 silly fixed for @djhrtest/header at /Users/danielhernandez/nowports/tests/lerna/packages/header
+27 verbose fixed increment 0.0.0 by minor
+28 silly fixed for @djhrtest/remixapp at /Users/danielhernandez/nowports/tests/lerna/packages/remixapp
+29 verbose fixed increment 0.0.0 by minor
+30 info execute Skipping releases
+31 silly lifecycle No script for "preversion" in "djhrtest", continuing
+32 silly lifecycle No script for "preversion" in "@djhrtest/footer", continuing
+33 silly lifecycle No script for "preversion" in "@djhrtest/header", continuing
+34 verbose version @djhrtest/header has no lockfile. Skipping lockfile update.
+35 verbose version @djhrtest/footer has no lockfile. Skipping lockfile update.
+36 silly lifecycle No script for "version" in "@djhrtest/footer", continuing
+37 silly fixed for @djhrtest/footer at /Users/danielhernandez/nowports/tests/lerna/packages/footer
+38 silly lifecycle No script for "version" in "@djhrtest/header", continuing
+39 silly fixed for @djhrtest/header at /Users/danielhernandez/nowports/tests/lerna/packages/header
+40 silly fixed writing new entry: "# 0.1.0 (2023-03-21)\n\n\n### Features\n\n* **@djhrtest/footer:** fix package files ([ceac899](https://github.com/lerna/getting-started-example/commit/ceac899cfe7c7d5565ef7794da1cc5fe9bfe0204))\n\n\n\n"
+41 silly fixed writing new entry: "# 0.1.0 (2023-03-21)\n\n\n### Features\n\n* **@djhrtest/header:** fix package files ([21e0058](https://github.com/lerna/getting-started-example/commit/21e00580f2d602ac90df29201f63564e9b4aa924))\n\n\n\n"
+42 verbose fixed wrote /Users/danielhernandez/nowports/tests/lerna/packages/footer/CHANGELOG.md
+43 verbose fixed wrote /Users/danielhernandez/nowports/tests/lerna/packages/header/CHANGELOG.md
+44 silly lifecycle No script for "preversion" in "@djhrtest/remixapp", continuing
+45 verbose version @djhrtest/remixapp has no lockfile. Skipping lockfile update.
+46 silly lifecycle No script for "version" in "@djhrtest/remixapp", continuing
+47 silly fixed for @djhrtest/remixapp at /Users/danielhernandez/nowports/tests/lerna/packages/remixapp
+48 silly fixed writing new entry: "# 0.1.0 (2023-03-21)\n\n\n### Bug Fixes\n\n* add version to remixapp packagejson to satisfy yarn workspaces ([daf785f](https://github.com/lerna/getting-started-example/commit/daf785ff39c01da41f636987814d066f3b6b1234))\n\n\n### Features\n\n* **@djhrtest/remixapp:** fix package files ([0483c1b](https://github.com/lerna/getting-started-example/commit/0483c1b2be3f5fa893a95da858205398d2f21ec5))\n\n\n\n"
+49 verbose fixed wrote /Users/danielhernandez/nowports/tests/lerna/packages/remixapp/CHANGELOG.md
+50 silly root for djhrtest at /Users/danielhernandez/nowports/tests/lerna
+51 silly root writing new entry: "# 0.1.0 (2023-03-21)\n\n\n### Bug Fixes\n\n* add version to remixapp packagejson to satisfy yarn workspaces ([daf785f](https://github.com/lerna/getting-started-example/commit/daf785ff39c01da41f636987814d066f3b6b1234))\n\n\n### Features\n\n* **@djhrtest/footer:** fix package files ([ceac899](https://github.com/lerna/getting-started-example/commit/ceac899cfe7c7d5565ef7794da1cc5fe9bfe0204))\n* **@djhrtest/header:** fix package files ([21e0058](https://github.com/lerna/getting-started-example/commit/21e00580f2d602ac90df29201f63564e9b4aa924))\n* **@djhrtest/remixapp:** fix package files ([0483c1b](https://github.com/lerna/getting-started-example/commit/0483c1b2be3f5fa893a95da858205398d2f21ec5))\n* **root:** add new package files ([b9985b8](https://github.com/lerna/getting-started-example/commit/b9985b8180ea6dd5eca1341a205f6cad4704aedb))\n\n\n\n"
+52 verbose root wrote /Users/danielhernandez/nowports/tests/lerna/CHANGELOG.md
+53 verbose version Updating root package-lock.json
+54 silly lifecycle No script for "version" in "djhrtest", continuing
+55 silly gitAdd [
+55 silly gitAdd   'packages/footer/package.json',
+55 silly gitAdd   'packages/header/package.json',
+55 silly gitAdd   'packages/footer/CHANGELOG.md',
+55 silly gitAdd   'packages/header/CHANGELOG.md',
+55 silly gitAdd   'packages/remixapp/package.json',
+55 silly gitAdd   'packages/remixapp/CHANGELOG.md',
+55 silly gitAdd   'CHANGELOG.md',
+55 silly gitAdd   'lerna.json',
+55 silly gitAdd   'package-lock.json'
+55 silly gitAdd ]
+56 silly gitCommit v0.1.0
+57 verbose git [ 'commit', '-m', 'v0.1.0' ]
+58 silly gitTag v0.1.0 git tag %s -m %s
+59 verbose git [ 'tag', 'v0.1.0', '-m', 'v0.1.0' ]
+60 silly lifecycle No script for "postversion" in "@djhrtest/footer", continuing
+61 silly lifecycle No script for "postversion" in "@djhrtest/header", continuing
+62 silly lifecycle No script for "postversion" in "@djhrtest/remixapp", continuing
+63 silly lifecycle No script for "postversion" in "djhrtest", continuing
+64 info git Pushing tags...
+65 silly gitPush origin main
+66 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin main
+66 error remote: Permission to lerna/getting-started-example.git denied to djhrcode.
+66 error fatal: unable to access 'https://github.com/lerna/getting-started-example.git/': The requested URL returned error: 403
+66 error     at makeError (/Users/danielhernandez/nowports/tests/lerna/node_modules/execa/lib/error.js:59:11)
+66 error     at handlePromise (/Users/danielhernandez/nowports/tests/lerna/node_modules/execa/index.js:114:26)
