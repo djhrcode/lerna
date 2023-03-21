@@ -1,7 +1,8 @@
 {
-  "name": "footer",
+  "name": "@djhrtest/footer",
   "version": "0.0.0",
   "main": "dist/index.js",
+  "types": "src/index.tsx",
   "scripts": {
     "build": "rimraf dist && rollup --config",
     "test": "jest"
