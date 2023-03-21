@@ -3,6 +3,9 @@
   "version": "0.2.0",
   "main": "dist/index.js",
   "types": "src/index.tsx",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/djhrcode"
+  },
   "scripts": {
     "build": "rimraf dist && rollup --config",
     "test": "jest"
