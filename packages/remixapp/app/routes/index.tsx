@@ -1,5 +1,5 @@
-import {Header} from 'header';
-import {Footer} from 'footer';
+import {Header} from '@djhrtest/header';
+import {Footer} from '@djhrtest/footer';
 
 export default function Index() {
     return (
